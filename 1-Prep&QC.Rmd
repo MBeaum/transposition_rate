@@ -1,0 +1,12 @@
+---
+title: "1 - Prep & QC"
+author: "Matthew Beaumont"
+date: "`r Sys.Date()`"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+After retrieving the DNA sequencing data from BGI, we first need to run our own QC and prep the data for use in downstream analysis. 
